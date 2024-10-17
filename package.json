@@ -1,0 +1,32 @@
+{
+  "name": "jobfinder",
+  "version": "1.0.0",
+  "description": "Este sistema é um portal para programadores que buscam vagas de trabalho",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon app.js"
+  },
+  "keywords": [
+    "dev",
+    "jobs",
+    "dev",
+    "oportunity",
+    "vagas",
+    "de",
+    "empregos",
+    "programadores"
+  ],
+  "author": "Rafael André Paes de Almeida <rafaelpaesalmeida4@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "express": "^4.21.0",
+    "express-handlebars": "^8.0.1",
+    "handlebars": "^4.7.8",
+    "sequelize": "^6.37.3",
+    "sqlite3": "^5.1.7"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  }
+}
